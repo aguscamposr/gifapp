@@ -1,6 +1,9 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: rgb(234, 234, 234);
+    box-sizing: border-box;
   }
   
   body {
@@ -17,7 +20,22 @@
     padding: 10px 15px;
     width: 100%;
   }
-  
+  h1 {
+    text-align: center;
+    color: blue;
+    transition: 300ms;
+  }
+  h1:hover {
+    transform: scale(1.2);
+    color: blueviolet;
+  }
+  #root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #root:hover {
+    transition: 300ms;
+    transform: scale(1.03);
+  }
   h2 {
     font-size: 1.5rem;
   }
